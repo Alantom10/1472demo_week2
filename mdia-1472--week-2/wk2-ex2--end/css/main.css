@@ -1,0 +1,44 @@
+/* Base */
+:root {
+    --sans-serif: 'Inter', sans-serif;
+    --semi-bold: 600;
+    --oil: #333;
+    --brand-pink: #ff1276; 
+}
+
+body {
+    font-family: var(--sans-serif);
+}
+
+.container {
+    max-width: 67.5rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+.site-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.site-header__nav {
+    flex-grow: 1;
+}
+
+.site-header__nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.site-header a {
+    color: var(--oil);
+    text-decoration: none;
+    font-weight: var(--semi-bold)
+}
+
+.site-header a:hover {
+    color: var(--brand-pink)
+}

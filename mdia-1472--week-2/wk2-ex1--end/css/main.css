@@ -1,0 +1,33 @@
+/* Base */
+:root {
+    --sans-serif: 'Inter', sans-serif;
+    --semi-bold: 600;
+    --oil: #333;
+    --brand-pink: #ff1276; 
+}
+
+body {
+    font-family: var(--sans-serif);
+}
+
+/* Header */
+.site-header {
+    padding: 1rem;
+}
+
+.site-header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.site-header a {
+    color: var(--oil);
+    text-decoration: none;
+    font-weight: var(--semi-bold)
+}
+
+.site-header a:hover {
+    color: var(--brand-pink)
+}

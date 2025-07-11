@@ -1,0 +1,11 @@
+/* Base */
+:root {
+    --sans-serif: 'Inter', sans-serif;
+    --semi-bold: 600;
+    --oil: #333;
+    --brand-pink: #ff1276; 
+}
+
+body {
+    font-family: var(--sans-serif);
+}
